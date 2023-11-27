@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/responsive.css">
+		<title>Terrawise</title>
+	</head>
+	<body>
+		<div class="triangle d-none d-md-block triangle--fixed position-fixed top-0 start-0"></div>
+		<header class="custom-header header" id="mainHeader">
+			<nav class="navbar navbar-expand-lg custom-header__container py-0">
+				<div class="container">
+					<!-- <div class="triangle--fixed z-index-1"></div> -->
+					<a href="index.html" class="logo navbar-brand p-0 position-relative z-index-2">
+						<img src="assets/images/logo.svg" alt="Logo" />
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sideNav">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse flex-wrap">
+						<div class="header__top-right text-end d-none d-lg-block w-100">
+							<a href="#">Blog </a>
+							<a href="#">Pay Bill </a>
+							<a href="#">Service Center </a>
+							<a href="#">Training Sign Up</a>
+							<div class="button button-one">
+								<a href="#"> Request demo </a>
+							</div>
+						</div>
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+							<li><a href="services.html">Services</a></li>
+							<li class="custom-dropdown">
+								<a href="#">
+									<span> Solutions </span>
+									<svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_6001_836)">
+											<path d="M11.9618 0L7.32379 4.433L2.68575 0H0L7.32379 7L14.6481 0H11.9618Z" fill="#247753"/>
+										</g>
+										<defs>
+											<clipPath id="clip0_6001_836">
+												<rect width="14.6481" height="7" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+								</a>
+								<ul class="sub-menu">
+									<li>
+										<a href="#">Machine Control</a>
+									</li>
+									<li>
+										<a href="#">Survey</a>
+									</li>
+									<li>
+										<a href="#">Construction</a>
+									</li>
+									<li>
+										<a href="#">High-Definition Surveying (HDS)</a>
+									</li>
+									<li>
+										<a href="#">Utility Locate</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="services.html">Case Studies</a></li>
+							<li class="custom-dropdown">
+								<a href="#">
+									<span> Resources </span>
+									<svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_6001_836)">
+											<path d="M11.9618 0L7.32379 4.433L2.68575 0H0L7.32379 7L14.6481 0H11.9618Z" fill="#247753"/>
+										</g>
+										<defs>
+											<clipPath id="clip0_6001_836">
+												<rect width="14.6481" height="7" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+								</a>
+								<ul class="sub-menu">
+									<li>
+										<a href="#">Machine Control</a>
+									</li>
+									<li>
+										<a href="#">Survey</a>
+									</li>
+									<li>
+										<a href="#">Construction</a>
+									</li>
+									<li>
+										<a href="#">High-Definition Surveying (HDS)</a>
+									</li>
+									<li>
+										<a href="#">Utility Locate</a>
+									</li>
+								</ul>
+							</li>
+							<li class="custom-dropdown">
+								<a href="#">
+									<span>About</span>
+									<svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_6001_836)">
+											<path d="M11.9618 0L7.32379 4.433L2.68575 0H0L7.32379 7L14.6481 0H11.9618Z" fill="#247753"/>
+										</g>
+										<defs>
+											<clipPath id="clip0_6001_836">
+												<rect width="14.6481" height="7" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+								</a>
+								<ul class="sub-menu">
+									<li>
+										<a href="#">Machine Control</a>
+									</li>
+									<li>
+										<a href="#">Survey</a>
+									</li>
+									<li>
+										<a href="#">Construction</a>
+									</li>
+									<li>
+										<a href="#">High-Definition Surveying (HDS)</a>
+									</li>
+									<li>
+										<a href="#">Utility Locate</a>
+									</li>
+								</ul>
+							</li>
+							<li class="custom-dropdown">
+								<a href="#">
+									<span>Contact</span>
+									<svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_6001_836)">
+											<path d="M11.9618 0L7.32379 4.433L2.68575 0H0L7.32379 7L14.6481 0H11.9618Z" fill="#247753"/>
+										</g>
+										<defs>
+											<clipPath id="clip0_6001_836">
+												<rect width="14.6481" height="7" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+								</a>
+								<ul class="sub-menu">
+									<li>
+										<a href="#">Machine Control</a>
+									</li>
+									<li>
+										<a href="#">Survey</a>
+									</li>
+									<li>
+										<a href="#">Construction</a>
+									</li>
+									<li>
+										<a href="#">High-Definition Surveying (HDS)</a>
+									</li>
+									<li>
+										<a href="#">Utility Locate</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="offcanvas offcanvas-start" tabindex="-1" id="sideNav" >
+			<div class="offcanvas-header">
+				<a href="index.html" class="logo navbar-brand p-0 position-relative z-index-2">
+					<img src="assets/images/logo.svg" alt="Logo" />
+				</a>
+				<div class="sidenav-close-btn">
+					<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+			</div>
+			<div class="offcanvas-body">
+				<ul>
+					<li><a href="services.html">Services</a></li>
+					<li class="custom-dropdown">
+						<a href="#">
+							<span> Solutions </span>
+							<svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_6001_836)">
+									<path d="M11.9618 0L7.32379 4.433L2.68575 0H0L7.32379 7L14.6481 0H11.9618Z" fill="#247753"></path>
+								</g>
+								<defs>
+									<clipPath id="clip0_6001_836">
+										<rect width="14.6481" height="7" fill="white"></rect>
+									</clipPath>
+								</defs>
+							</svg>
+						</a>
+						<ul class="sub-menu">
+							<li>
+								<a href="#">Machine Control</a>
+							</li>
+							<li>
+								<a href="#">Survey</a>
+							</li>
+							<li>
+								<a href="#">Construction</a>
+							</li>
+							<li>
+								<a href="#">High-Definition Surveying (HDS)</a>
+							</li>
+							<li>
+								<a href="#">Utility Locate</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="services.html">Case Studies</a></li>
+					<li class="custom-dropdown">
+						<a href="#">
+							<span> Resources </span>
+							<svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_6001_836)">
+									<path d="M11.9618 0L7.32379 4.433L2.68575 0H0L7.32379 7L14.6481 0H11.9618Z" fill="#247753"></path>
+								</g>
+								<defs>
+									<clipPath id="clip0_6001_836">
+										<rect width="14.6481" height="7" fill="white"></rect>
+									</clipPath>
+								</defs>
+							</svg>
+						</a>
+						<ul class="sub-menu">
+							<li>
+								<a href="#">Machine Control</a>
+							</li>
+							<li>
+								<a href="#">Survey</a>
+							</li>
+							<li>
+								<a href="#">Construction</a>
+							</li>
+							<li>
+								<a href="#">High-Definition Surveying (HDS)</a>
+							</li>
+							<li>
+								<a href="#">Utility Locate</a>
+							</li>
+						</ul>
+					</li>
+					<li class="custom-dropdown">
+						<a href="#">
+							<span>About</span>
+							<svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_6001_836)">
+									<path d="M11.9618 0L7.32379 4.433L2.68575 0H0L7.32379 7L14.6481 0H11.9618Z" fill="#247753"></path>
+								</g>
+								<defs>
+									<clipPath id="clip0_6001_836">
+										<rect width="14.6481" height="7" fill="white"></rect>
+									</clipPath>
+								</defs>
+							</svg>
+						</a>
+						<ul class="sub-menu">
+							<li>
+								<a href="#">Machine Control</a>
+							</li>
+							<li>
+								<a href="#">Survey</a>
+							</li>
+							<li>
+								<a href="#">Construction</a>
+							</li>
+							<li>
+								<a href="#">High-Definition Surveying (HDS)</a>
+							</li>
+							<li>
+								<a href="#">Utility Locate</a>
+							</li>
+						</ul>
+					</li>
+					<li class="custom-dropdown">
+						<a href="#">
+							<span>Contact</span>
+							<svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_6001_836)">
+									<path d="M11.9618 0L7.32379 4.433L2.68575 0H0L7.32379 7L14.6481 0H11.9618Z" fill="#247753"></path>
+								</g>
+								<defs>
+									<clipPath id="clip0_6001_836">
+										<rect width="14.6481" height="7" fill="white"></rect>
+									</clipPath>
+								</defs>
+							</svg>
+						</a>
+						<ul class="sub-menu">
+							<li>
+								<a href="#">Machine Control</a>
+							</li>
+							<li>
+								<a href="#">Survey</a>
+							</li>
+							<li>
+								<a href="#">Construction</a>
+							</li>
+							<li>
+								<a href="#">High-Definition Surveying (HDS)</a>
+							</li>
+							<li>
+								<a href="#">Utility Locate</a>
+							</li>
+						</ul>
+					</li>
+				</ul>				
+			</div>
+		</div>
+		<!-- Hero section -->
+		<section class="hero-small d-flex align-items-end" style="background-image: url('assets/images/service center-1.jpg');">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h1 class="main-title">Service Center</h1>
+					</div>
+				</div>
+			</div>
+			<div class="triangle-2 position-absolute  bottom-0 end-0" style="border-width: 83.739px;"></div>
+		</section>
+		<!-- hero section end -->
+
+		<!-- sub-title area start -->
+			<section class="sub-title section-padding">
+				<div class="container">
+					<div class="row ">
+						<div class="col-lg-10">
+							<h3 class="title-lg mb-16">Service Center Intro</h4>
+							<p>Located in McDonough, Georgia, our Service Center is your dedicated hub for seamless construction technology support. With expert technicians and a vast inventory of parts, we provide timely and reliable service, ensuring your equipment stays in peak performance, minimizing downtime, and keeping your projects on track.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		<!-- sub-title area end -->
+
+		<!-- services intro area start -->
+		<section class="services-intro-area pb-140">
+			<div class="container">
+				<div class="row ">
+					<div class="col-lg-6">
+						<div class="services-intro-info position-relative">
+							<div class="services-intro-content pt-54">
+							   <h4 class="title-sm">Leica TPS Instruments</h4>
+							   <p><sapn class="fw-bold">Robotic Total Stations:</sapn><sapn>TS16, TS15, TS12, TS11, iCON 50, iCON 60, iCON 80</sapn></p>
+							   <p><sapn class="fw-bold">Manual Total Stations:</sapn><sapn>TS02, TS03, TS06, TS07, TS09, TS10, ALL Builder  models</sapn></p>
+							   <p><sapn class="fw-bold">Theodolites:</sapn><sapn>LDT05</sapn></p>
+						    </div>
+						    <div class="services-intro-content mt-45">
+							   <h4 class="title-sm">Leica GNSS</h4>
+							   <p><sapn class="fw-bold">Viva:</sapn><sapn>GS07, GS08, GS14, GS15, GS16, GS18</sapn></p>
+							   <p><sapn class="fw-bold">Collection Device:</sapn><sapn>CS15, CG20, CC80</sapn></p>
+							   <p><sapn class="fw-bold">Icon:</sapn><sapn>iCG60, iCG80’s, iCG70’s, Power box’s and Power Antenna’s</sapn></p>
+							   <p><sapn class="fw-bold">Powermast / Manual Mast Repairs05</sapn></p>
+						    </div>
+						    <div class="services-intro-content mt-45">
+							   <h4 class="title-sm">Leica Laser Receivers</h4>
+							   <p><sapn class="fw-bold">LMR 360’s, MLS Series, MD Series</sapn></p>
+						    </div>
+						    <div class="services-intro-content mt-45">
+							   <h4 class="title-sm">Leica Lasers</h4>
+							   <p><sapn class="fw-bold">Rotating:</sapn><sapn>Rugby 5x, 1xx, 2xx, 3xx, 4xx, 6xx, 8xx, CLX models</sapn></p>
+							   <p><sapn class="fw-bold">Pipe:</sapn><sapn> Piper 100 and Piper 200, 67xx series (Basic repairs only for 67xx model because of parts availability)</sapn></p>
+						    </div>
+						    <div class="services-intro-content mt-45">
+							   <h4 class="title-sm">Leica Levels</h4>
+							   <p><sapn class="fw-bold">Auto:</sapn><sapn>ALL NA Series, All Jogger/Runner series</sapn></p>
+						    </div>
+						    <div class="services-intro-content mt-45">
+							   <h4 class="title-sm">GeoMax</h4>
+							   <p><sapn class="fw-bold">GeoMax:</sapn><sapn>Zoom 80’s and 90’s</sapn></p>
+							   <p><sapn class="fw-bold">Manual Total Station:</sapn><sapn>Zoom Series, Zipp series</sapn></p>
+							   <p><sapn class="fw-bold">GNSS:</sapn><sapn>Zenith series</sapn></p>
+							   <p><sapn class="fw-bold">Rotating Lasers:</sapn><sapn>Zone series, ZEL series</sapn></p>
+							   <p><sapn class="fw-bold">Pipe Lasers:</sapn><sapn> Zeta series</sapn></p>
+						    </div>
+						    <div class="services-intro-content mt-45">
+							   <h4 class="title-sm">All Other Products</h4>
+							   <p><sapn class="fw-bold">Topcon:</sapn><sapn> TPL series, RL series, Manual Total Stations, Auto Level Series,Theodolites</sapn></p>
+							   <p><sapn class="fw-bold">Trimble / SP:</sapn><sapn> ALL pipe, rotating, and auto levels, Theodolites</sapn></p>
+							   <p><sapn class="fw-bold">David White / Site Pro:</sapn><sapn>LT8 and LT6 series, Auto Levels, theodolites</sapn></p>
+						    </div>
+						</div>
+
+					</div>
+					<div class="col-lg-6">
+						<div class="row">
+							<div class="col-lg-12">
+							   <div class="service-img position-relative">
+	  			  			       <img src="./assets/images/service center-2.jpg" alt="" class="img-fluid">
+	  			  			       <div class="triangle-3 position-absolute"></div>
+	  			  		       </div>
+							</div>
+							<div class="col-lg-12 mt-16 ">
+							   <div class="service-img position-relative">
+	  			  			       <img src="./assets/images/service center-2.jpg" alt="" class="img-fluid">
+	  			  			       <div class="triangle-3 position-absolute"></div>
+	  			  		       </div>
+							</div>
+						</div>
+					
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<!-- services intro area end -->
+
+		<!-- contact area section start -->
+		<section class="contact-area section-padding-sm">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="contact-top-content">
+							<h3 class="title-xl mb-16">Need Service?</h3>
+						    <p>Let’s talk about how we can quickly get you back in the field, and your tech back up and running.</p>
+						</div>
+
+						<div class="contact-content pt-28 d-flex align-items-center">
+					
+							<svg xmlns="http://www.w3.org/2000/svg" width="71" height="71" viewBox="0 0 71 71" fill="none">
+							   <path d="M52.383 38.6064C52.1085 38.3314 51.7825 38.1133 51.4236 37.9644C51.0647 37.8156 50.68 37.739 50.2915 37.739C49.9029 37.739 49.5182 37.8156 49.1593 37.9644C48.8005 38.1133 48.4744 38.3314 48.1999 38.6064L43.4843 43.3219C41.2981 42.6711 37.2186 41.1919 34.633 38.6064C32.0474 36.0208 30.5683 31.9412 29.9174 29.755L34.633 25.0394C34.908 24.7649 35.1261 24.4389 35.275 24.08C35.4238 23.7211 35.5004 23.3364 35.5004 22.9479C35.5004 22.5594 35.4238 22.1747 35.275 21.8158C35.1261 21.4569 34.908 21.1309 34.633 20.8564L22.7997 9.02303C22.5252 8.74806 22.1992 8.52992 21.8403 8.38108C21.4814 8.23225 21.0967 8.15564 20.7081 8.15564C20.3196 8.15564 19.9349 8.23225 19.576 8.38108C19.2171 8.52992 18.8911 8.74806 18.6166 9.02303L10.5936 17.046C9.46943 18.1702 8.83635 19.7144 8.86002 21.2912C8.92806 25.5039 10.0433 40.1358 21.5749 51.6674C33.1065 63.199 47.7384 64.3113 51.9541 64.3823H52.0369C53.5989 64.3823 55.0751 63.767 56.1934 62.6487L64.2163 54.6257C64.4913 54.3512 64.7095 54.0252 64.8583 53.6663C65.0071 53.3074 65.0837 52.9227 65.0837 52.5342C65.0837 52.1457 65.0071 51.7609 64.8583 51.4021C64.7095 51.0432 64.4913 50.7171 64.2163 50.4427L52.383 38.6064ZM52.0073 58.4627C48.3153 58.4006 35.6832 57.4095 25.758 47.4814C15.8003 37.5236 14.8358 24.8472 14.7767 21.2291L20.7081 15.2977L28.3584 22.9479L24.5333 26.773C24.1855 27.1205 23.9299 27.5491 23.7894 28.0202C23.6489 28.4912 23.628 28.9899 23.7286 29.471C23.7996 29.8112 25.5361 37.8786 30.447 42.7894C35.3578 47.7003 43.4252 49.4368 43.7654 49.5078C44.2463 49.6112 44.7454 49.592 45.2169 49.4519C45.6884 49.3118 46.117 49.0553 46.4634 48.7061L50.2915 44.881L57.9417 52.5312L52.0073 58.4627Z" fill="#D8CDB3"/>     
+                            </svg>
+						    <div>
+						    	<h5 class="c-heading">Phone</h5>
+						    	<p class="text-decoration-underline title-sm"> (770) 898.6505</p>
+						    </div>	
+						</div>
+						<div class="contact-content pt-28 d-flex align-items-center mt-45">
+					
+							    <svg xmlns="http://www.w3.org/2000/svg" width="71" height="71" viewBox="0 0 71 71" fill="none">
+                                    <path d="M35.5008 40.6987C42.0269 40.6987 47.3342 35.3915 47.3342 28.8654C47.3342 22.3393 42.0269 17.0321 35.5008 17.0321C28.9747 17.0321 23.6675 22.3393 23.6675 28.8654C23.6675 35.3915 28.9747 40.6987 35.5008 40.6987ZM35.5008 22.9487C38.7639 22.9487 41.4175 25.6024 41.4175 28.8654C41.4175 32.1284 38.7639 34.7821 35.5008 34.7821C32.2378 34.7821 29.5842 32.1284 29.5842 28.8654C29.5842 25.6024 32.2378 22.9487 35.5008 22.9487Z" fill="#D8CDB3"/>
+                                    <path d="M33.7851 63.8151C34.2858 64.1727 34.8857 64.3649 35.5009 64.3649C36.1162 64.3649 36.7161 64.1727 37.2167 63.8151C38.1161 63.1791 59.2534 47.9171 59.1676 28.8654C59.1676 15.8162 48.5501 5.19873 35.5009 5.19873C22.4517 5.19873 11.8342 15.8162 11.8342 28.8506C11.7485 47.9171 32.8857 63.1791 33.7851 63.8151ZM35.5009 11.1154C45.29 11.1154 53.2509 19.0763 53.2509 28.8802C53.313 42.0093 40.2697 53.7982 35.5009 57.6648C30.735 53.7953 17.6888 42.0034 17.7509 28.8654C17.7509 19.0763 25.7118 11.1154 35.5009 11.1154Z" fill="#D8CDB3"/>
+                                </svg>
+                        
+					            <div>
+						    	   <h5 class="c-heading">Office</h5>
+						    	   <p class="text-decoration-underline title-sm"> 1025 Henry Parkway Connector
+                                   McDonough, GA 30253</p>
+                                   <p class="c-direction-link text-decoration-underline">
+                                	<sapn>Get Directions</sapn>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9.70697 17.707L15.414 12L9.70697 6.29297L8.29297 7.70697L12.586 12L8.29297 16.293L9.70697 17.707Z" fill="#004236"/>
+                                    </svg>
+                                    </p>
+						        </div>	
+						</div>
+						<div class="map"></div>
+						
+					</div>
+					<div class="col-lg-6">
+						<div class="contact-form">
+							<form action="#">
+								<div >
+                                   <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                                   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name Input" required>
+                                </div>
+                                <div class="mt-25">
+                                   <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                                   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="" required>
+                                </div>
+                                <div class="mt-25">
+                                   <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="" required>
+                                </div>
+                                <div class="mt-25">
+                                   <label for="exampleFormControlInput1" class="form-label">Phone or Cell Number</label>
+                                   <input type="tel"  class="form-control" id="exampleFormControlInput1" placeholder="" required>
+                                </div>
+                                <div class="mt-25">
+                                   <label for="exampleFormControlInput1" class="form-label">Company</label>
+                                   <input type="text"  class="form-control" id="exampleFormControlInput1" placeholder="" required>
+                                </div>
+                                <div class="mt-25">
+                                   <label for="exampleFormControlInput1" class="form-label">Address</label>
+                                   <input type="text"  class="form-control" id="exampleFormControlInput1" placeholder="" required>
+                                </div>
+                                <div class="mt-25">
+                                	<label for="exampleFormControlInput1" class="form-label">State</label>
+                                   <select class="form-select position-relative" aria-label="Default select example">
+                                     <option selected>Open this select menu</option>
+                                     <option value="1">One</option>
+                                     <option value="2">Two</option>
+                                     <option value="3">Three</option>
+                                   </select>
+                                </div>
+                                <div class="mt-25">
+                                	<label for="exampleFormControlInput1" class="form-label">What Service Are You Looking For?</label>
+                                   <select class="form-select" aria-label="Default select example">
+                                     <option selected>Open this select menu</option>
+                                     <option value="1">One</option>
+                                     <option value="2">Two</option>
+                                     <option value="3">Three</option>
+                                   </select>
+                                </div>
+                                <div class="mt-25">
+                                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                </div>
+                                <div class="text-end">
+                                	<div class="button button-one mt-45">
+										<button stype="submit"> SUBMIT </button>
+									</div>
+                                </div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- contact area section start -->
+
+		
+
+		<section class="talk-terrawise bg-gray-dark">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-xl-7">
+						<div class="tt-image tt-video wow animate__animated animate__fadeInLeft">
+							<video src="assets/videos/demo.mp4" loop autoplay muted></video>
+						</div>
+					</div>
+					<div class="col-lg-6 col-xl-5">
+						<div class="green-dark tt-content wow animate__animated animate__fadeInRight">
+							<h2 class="title-xl">Talk to Terrawise</h2>
+							<p>
+								Whether you’re looking for service guidance or to expand your
+								construction technologies, our team is here to help.
+							</p>
+							<div class="talk-terrawise__btn-wrapper">
+								<div class="button button-one">
+									<a href="#"> Request demo </a>
+								</div>
+								<div class="button button-two button-green">
+									<a href="#"> LET’S TALK </a>
+									<svg
+										width="165"
+										height="48"
+										viewBox="0 0 165 48"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+										>
+										<mask id="path-1-inside-1_5890_56" fill="white">
+											<path
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+												d="M165 0H18L0 18V48H165V0Z"
+												/>
+										</mask>
+										<path
+											d="M18 0V-2H17.1716L16.5858 -1.41421L18 0ZM165 0H167V-2H165V0ZM0 18L-1.41421 16.5858L-2 17.1716V18H0ZM0 48H-2V50H0V48ZM165 48V50H167V48H165ZM18 2H165V-2H18V2ZM16.5858 -1.41421L-1.41421 16.5858L1.41421 19.4142L19.4142 1.41421L16.5858 -1.41421ZM2 48V18H-2V48H2ZM165 46H0V50H165V46ZM163 0V48H167V0H163Z"
+											fill="#004236"
+											mask="url(#path-1-inside-1_5890_56)"
+											/>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer bg-properties">
+			<div class="container">
+				<div
+					class="d-flex justify-content-between align-items-center fl-wrapper"
+					>
+					<a href="#" class="footer-logo">
+					<img src="assets/images/footer-logo.svg" alt="" />
+					</a>
+					<div class="button button-one">
+						<a href="#"> Request demo </a>
+					</div>
+				</div>
+				<div class="d-lg-flex align-items-lg-end justify-content-lg-between">
+					<div class="subscribe text-center text-lg-start">
+						<div class="gray-light">
+							<p> Join our newsletter to stay up to date on features and releases.</p>
+						</div>
+						<form action="#">
+							<input class="gray-light" type="email" placeholder="Enter your email" />
+							<div class="button button-two">
+								<button class="bg-transparent border-0 gray-light"> SUBSCRIBE </button>
+								<svg width="155" height="48" viewBox="0 0 155 48" fill="none" xmlns="http://www.w3.org/2000/svg" >
+									<mask id="path-1-inside-1_5949_29297" fill="white">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M155 0H18L0 18V48H155V0Z" />
+									</mask>
+									<path d="M18 0V-2H17.1716L16.5858 -1.41421L18 0ZM155 0H157V-2H155V0ZM0 18L-1.41421 16.5858L-2 17.1716V18H0ZM0 48H-2V50H0V48ZM155 48V50H157V48H155ZM18 2H155V-2H18V2ZM16.5858 -1.41421L-1.41421 16.5858L1.41421 19.4142L19.4142 1.41421L16.5858 -1.41421ZM2 48V18H-2V48H2ZM155 46H0V50H155V46ZM153 0V48H157V0H153Z" fill="#D8CDB3" mask="url(#path-1-inside-1_5949_29297)" />
+								</svg>
+							</div>
+						</form>
+						<div class="gray font-secondary">
+							<p> By subscribing you agree to with our <a href="#"> Privacy Policy </a> and provide consent to receive updates from our company. </p>
+						</div>
+					</div>
+					<div class="d-flex justify-content-between ql-wrapper">
+						<div class="quick-links">
+							<h4 class="title-sm">Quick Links</h4>
+							<ul>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Machine Control</a></li>
+								<li><a href="#">Survey</a></li>
+								<li><a href="#">Construction</a></li>
+								<li><a href="#">HDS</a></li>
+								<li><a href="#">Utility Locate</a></li>
+							</ul>
+						</div>
+						<div class="quick-links">
+							<h4 class="title-sm">Let’s Get Started</h4>
+							<ul>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">Service Center</a></li>
+								<li><a href="#">Careers</a></li>
+								<li><a href="#">Sign up for Training</a></li>
+								<li><a href="#">Training Videos</a></li>
+								<li><a href="#">Blog</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="social-links mx-auto mx-lg-0">
+						<p>Follow Us</p>
+						<div class="d-flex justify-content-between align-items-center flex-wrap" >
+						<a href="#">
+							<svg
+							width="23"
+							height="41"
+							viewBox="0 0 23 41"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							>
+							<path
+								d="M21.4377 7.25H14.8127C13.593 7.25 12.6043 8.23871 12.6043 9.45833V16.0833H21.4377C21.6888 16.0778 21.927 16.1946 22.0763 16.3967C22.2256 16.5988 22.2676 16.8607 22.1885 17.0992L20.5543 21.9575C20.4037 22.4034 19.987 22.7048 19.5164 22.7083H12.6043V39.2708C12.6043 39.8806 12.1099 40.375 11.5002 40.375H5.97933C5.36952 40.375 4.87516 39.8806 4.87516 39.2708V22.7083H1.56266C0.952854 22.7083 0.458496 22.2139 0.458496 21.6042V17.1875C0.458496 16.5778 0.952854 16.0833 1.56266 16.0833H4.87516V9.45833C4.87516 4.57982 8.83007 0.625 13.7085 0.625H21.4377C22.0474 0.625 22.5418 1.11936 22.5418 1.72917V6.14583C22.5418 6.75564 22.0474 7.25 21.4377 7.25Z"
+								fill="#247753"
+							/>
+							</svg>
+						</a>
+						<a href="#">
+							<svg
+							width="46"
+							height="33"
+							viewBox="0 0 46 33"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"   
+							>
+							<path
+								d="M45.0353 5.1502C44.5091 3.1184 42.945 1.52571 40.9717 0.982409C37.3832 0 23 0 23 0C23 0 8.61678 0 5.02828 0.982409C3.04766 1.52571 1.49094 3.1184 0.964728 5.1502C0 8.82679 0 16.5 0 16.5C0 16.5 0 24.1732 0.964728 27.8498C1.49094 29.8816 3.05497 31.4743 5.02828 32.0176C8.61678 33 23 33 23 33C23 33 37.3832 33 40.9717 32.0176C42.9523 31.4743 44.5091 29.8742 45.0353 27.8498C46 24.1732 46 16.5 46 16.5C46 16.5 46 8.82679 45.0353 5.1502ZM18.2933 23.4662V9.53383L30.3159 16.5L18.2933 23.4662Z"
+								fill="#247753"
+							/>
+							</svg>
+						</a>
+						<a href="#">
+							<svg
+							width="41"
+							height="41"
+							viewBox="0 0 41 41"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							>
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M29.3333 0.625H11.6667C5.56853 0.625 0.625 5.56853 0.625 11.6667V29.3333C0.625 35.4314 5.56853 40.375 11.6667 40.375H29.3333C35.4314 40.375 40.375 35.4314 40.375 29.3333V11.6667C40.375 5.56853 35.4314 0.625 29.3333 0.625ZM36.5104 29.3333C36.4983 33.292 33.292 36.4983 29.3333 36.5104H11.6667C7.7079 36.4983 4.50171 33.292 4.48958 29.3333V11.6667C4.50171 7.7079 7.7079 4.50171 11.6667 4.48958H29.3333C33.292 4.50171 36.4983 7.7079 36.5104 11.6667V29.3333ZM30.9896 12.2187C32.2092 12.2187 33.1979 11.23 33.1979 10.0104C33.1979 8.7908 32.2092 7.80208 30.9896 7.80208C29.7699 7.80208 28.7812 8.7908 28.7812 10.0104C28.7812 11.23 29.7699 12.2187 30.9896 12.2187ZM20.5 10.5625C15.0117 10.5625 10.5625 15.0117 10.5625 20.5C10.5625 25.9884 15.0117 30.4375 20.5 30.4375C25.9884 30.4375 30.4375 25.9884 30.4375 20.5C30.4435 17.8626 29.3983 15.3315 27.5333 13.4666C25.6684 11.6017 23.1374 10.5566 20.5 10.5625ZM14.4271 20.5C14.4271 23.854 17.146 26.5729 20.5 26.5729C23.854 26.5729 26.5729 23.854 26.5729 20.5C26.5729 17.146 23.854 14.4271 20.5 14.4271C17.146 14.4271 14.4271 17.146 14.4271 20.5Z"
+								fill="#247753"
+							/>
+							</svg>
+						</a>
+						<a href="#">
+							<svg
+							width="40"
+							height="39"
+							viewBox="0 0 40 39"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							>
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M4.83333 0.375H35.1667C37.56 0.375 39.5 2.27779 39.5 4.625V34.375C39.5 36.7223 37.56 38.625 35.1667 38.625H4.83333C2.4401 38.625 0.5 36.7223 0.5 34.375V4.625C0.5 2.27779 2.4401 0.375 4.83333 0.375ZM11.3333 32.25C11.9316 32.25 12.4167 31.7742 12.4167 31.1875V16.3125C12.4167 15.7258 11.9316 15.25 11.3333 15.25H8.08333C7.48503 15.25 7 15.7258 7 16.3125V31.1875C7 31.7742 7.48503 32.25 8.08333 32.25H11.3333ZM9.70833 13.125C7.9134 13.125 6.45833 11.6979 6.45833 9.9375C6.45833 8.17709 7.9134 6.75 9.70833 6.75C11.5033 6.75 12.9583 8.17709 12.9583 9.9375C12.9583 11.6979 11.5033 13.125 9.70833 13.125ZM31.9167 32.25C32.5149 32.25 33 31.7742 33 31.1875V21.4125C33.0704 18.0354 30.5248 15.1534 27.1067 14.74C24.7168 14.5259 22.4013 15.6206 21.0833 17.5875V16.3125C21.0833 15.7258 20.5982 15.25 20 15.25H16.75C16.1518 15.25 15.6667 15.7258 15.6667 16.3125V31.1875C15.6667 31.7742 16.1518 32.25 16.75 32.25H20C20.5982 32.25 21.0833 31.7742 21.0833 31.1875V23.2188C21.0833 21.4584 22.5385 20.0312 24.3333 20.0312C26.1282 20.0312 27.5833 21.4584 27.5833 23.2188V31.1875C27.5833 31.7742 28.0685 32.25 28.6667 32.25H31.9167Z"
+								fill="#247753"
+							/>
+							</svg>
+						</a>
+						</div>
+					</div>
+				</div>
+				<div class="copyright d-lg-flex justify-content-lg-between align-items-lg-center text-center text-lg-start">
+					<p>© 2023 Terrawise. All rights reserved.</p>
+					<div>
+						<a href="#"> Privacy Policy </a>
+						<a href="#"> Terms & Conditions </a>
+						<a href="#"> Cookies </a>
+						<a href="#"> Disclaimer </a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/js/wow.min.js"></script>
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<script src="assets/js/theia-sticky-sidebar.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
